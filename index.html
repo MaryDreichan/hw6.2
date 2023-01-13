@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/_normalize.scss">
+    <style>
+body{
+    font-family: 'Averta Demo', sans-serif;
+    font-weight: lighter;
+}
+.container1{
+ display: grid;
+ width: 100%;
+ height: 100%;
+ grid-template-columns: 10% 35% 5% 6% 9% 6% 6% 5% 6% 6%;
+ grid-template-rows: 50px 200px 100px 220px;
+}
+
+.logo{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    align-items: center;
+}
+.digital{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    font-size: 40px;
+    align-items: end;
+    font-weight: normal;
+}
+.leading{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 2/3;
+    font-size: 16px;
+    align-items: center;
+}
+.buttoncontact{
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 2/3;
+    align-items: start;
+
+}
+.ornament1{
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 2/3;
+    align-items: end;
+}
+.home{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 4/5;
+    align-items: center;
+    font-size: 16px;
+    font-weight: normal;
+}
+.what{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 5/6;
+    align-items: center;
+    font-size: 16px;
+    font-weight: normal;
+}
+.service{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 6/7;
+    align-items: center;
+    font-size: 16px;
+    font-weight: normal;
+}
+.project1{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 7/8;
+    align-items: center;
+    font-size: 16px;
+    font-weight: normal;
+}
+.blog{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 8/9;
+    align-items: center;
+    font-size: 16px;
+    font-weight: normal;
+}
+.contact{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 9/10;
+    align-items: center;
+    font-size: 16px;
+    font-weight: normal;
+}
+.people{
+    grid-row: 2/3;
+    grid-column: 4/10;
+}
+.container2{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 10% 25% 10% 13% 15% 15% 12%;
+    grid-template-rows: 50px 50px 66px;
+}
+.our{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    align-items: center;
+    font-size: 40px;
+    font-weight: normal;
+}
+.several{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 2/3;
+    font-size: 18px;
+    align-items: center;
+}
+.google{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 4/5;
+    align-items: center;
+}
+.airbnb{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 5/6;
+    align-items: center;
+}
+.uber{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 6/7;
+    align-items: center;
+}
+.amazon{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 7/8;
+    align-items: end;
+}
+.container3{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 10% 30% 5% 22.5% 22.5% 10%;
+    grid-template-rows: 50px 400px 30px 400px;
+}
+.how{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    font-size: 40px;
+    font-weight: normal;
+    align-items: end;
+}
+.we{
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 2/3;
+    align-items: end;
+    font-size: 16px;
+    align-items: start;
+}
+.business{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+.development{
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 4/5;
+}
+.financial{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 5/6;
+}
+.market{
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 5/6;
+}
+.ornament2{
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 2/3;
+    align-items: center;
+}
+.container4{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 10% 35% 15% 35% 10%;
+    grid-template-rows: 50px 230px 20px 230px;
+}
+.ofice{
+    display: grid;
+    grid-row: 2/6;
+    grid-column: 2/3;
+    align-items: start;
+}
+.great{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 4/5;
+    align-items: end;
+    font-size: 40px;
+    font-weight: normal;
+}
+.plan{
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 4/5;
+    align-items: start;
+    font-size: 16px;
+}
+.container5{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 10% 25% 10% 20% 5% 20% 10%;
+    grid-template-rows: 50px 50px 50px 50px 130px 130px 100px 100px;
+}
+.whatsay{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 2/8;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: normal;
+}
+.several2{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 2/8;
+    align-items: start;
+    justify-content: center;
+    font-size: 16px;
+}
+.man{
+    display: grid;
+    grid-row: 4/6;
+    grid-column: 2/3;
+}
+.matthew{
+    display: grid;
+    grid-row: 5/6;
+    grid-column: 4/5;
+    align-items: end;
+    font-size: 24px;
+    font-weight: normal;
+}
+.perfect{
+    display: grid;
+    grid-row: 6/7;
+    grid-column: 4/5;
+    align-items: center;
+    font-size: 16px;
+}
+.group{
+    display: grid;
+    grid-row: 4/6;
+    grid-column: 6/7;
+    align-items: start;
+}
+.container6{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 10px 390px;
+}
+.newsletter{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 2/4;
+    align-items: center;
+    justify-content: center;
+}
+.container7{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 10% 5% 5% 15% 10% 15% 1% 13% 1% 11% 1% 10%;
+    grid-template-rows: 50px 40px 20px 25px 25px 25px 25px 70px;
+}
+.a{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 2/5;
+}
+.digital1{
+    display: grid;
+    grid-row: 3/8;
+    grid-column: 2/5;
+    align-items: center;
+    justify-content: start;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.do{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 6/7;
+    align-items: start;
+    justify-content: start;
+    font-size: 20px;
+    font-weight: normal;
+}
+.web{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 6/7;
+    align-items: center;
+    justify-content: start;
+    font-size: 14px;
+}
+.app{
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 6/7;
+    align-items: center;
+    justify-content: start;
+    font-size: 14px;
+}
+.smm{
+    display: grid;
+    grid-row: 5/6;
+    grid-column: 6/7;
+    align-items: center;
+    justify-content: start;
+    font-size: 14px;
+}
+.map{
+    display: grid;
+    grid-row: 6/7;
+    grid-column: 6/7;
+    align-items: center;
+    justify-content: start;
+    font-size: 14px;
+}
+.company{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 8/9;
+    align-items: start;
+    justify-content: start;
+    font-size: 20px;
+    font-weight: normal;
+}
+.about1{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 8/9;
+    align-items: center;
+    justify-content: start;
+    font-size: 14px;
+}
+.career{
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 8/9;
+    align-items: center;
+    justify-content: start;
+    font-size: 14px;
+}
+.become{
+    display: grid;
+    grid-row: 5/6;
+    grid-column: 8/9;
+    align-items: center;
+    justify-content: start;
+    font-size: 14px;
+}
+.support{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 10/11;
+    align-items: start;
+    justify-content: start;
+    font-size: 20px;
+    font-weight: normal;
+}
+.faq{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 10/11;
+    align-items: center;
+    justify-content: start;
+    font-size: 14px;
+}
+.policy{
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 10/11;
+    align-items: center;
+    justify-content: start;
+    font-size: 14px;
+}
+.business1{
+    display: grid;
+    grid-row: 5/6;
+    grid-column: 10/11;
+    align-items: center;
+    justify-content: start;
+    font-size: 14px;
+}
+.contact1{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 12/13;
+    align-items: start;
+    justify-content: start;
+    font-size: 20px;
+    font-weight: normal;
+}
+.wa{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 12/13;
+    align-items: center;
+    justify-content: start;
+    font-size: 14px; 
+}
+.support24{
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 12/13;
+    align-items: center;
+    justify-content: start;
+    font-size: 14px; 
+}
+.fb{
+    display: grid;
+    grid-row: 8/9;
+    grid-column: 2/3;
+    align-items: start;
+    justify-content: start;
+}
+.twitter{
+    display: grid;
+    grid-row: 8/9;
+    grid-column: 3/4;
+    align-items: start;
+    justify-content: start;
+}
+.in{
+    display: grid;
+    grid-row: 8/9;
+    grid-column: 4/5;
+    align-items: start;
+    justify-content: start;
+}
+</style>
+</head>
+<body>
+    <div class="container1">
+        <div class="logo"><img src="/image/logo.png" alt="logo"> </div>
+        <div class="digital">A Digital Product Agency</div>
+        <div class="leading">Leading digital agency with solid design and development expertise. We build readymade websites, mobile applications, and elaborate online business services.</div>
+        <div class="buttoncontact"><img src="image/contact.png" alt="button"></div>
+        <div class="ornament1"><img src="image/ornament.png" alt="ornament"></div>
+        <div class="home">Home</div>
+        <div class="what">What we do</div>
+        <div class="service">Service</div>
+        <div class="project1">Project</div>
+        <div class="blog">Blog</div>
+        <div class="contact">Contact</div>
+        <div class="people"><img src="/image/people.png" alt="people"></div>
+    </div>
+    <div class="container2">
+        <div class="our">Our Client</div>
+        <div class="several">Several selected clients, who already believe in our service.</div>
+        <div class="google"><img src="image/Google.png" alt="google"></div>
+        <div class="airbnb"><img src="image/Airbnb.png" alt="airbnb"></div>
+        <div class="uber"><img src="image/Uber.png" alt="uber"></div>
+        <div class="amazon"><img src="image/Amazon.png" alt="amazon"></div>
+    </div>
+    <div class="container3">
+        <div class="how">How can we help your Business?</div>
+        <div class="we">We build readymade websites, mobile applications, and elaborate online business services.</div>
+        <div class="business"><img src="image/business.png" alt="image"></div>
+        <div class="development"><img src="image/development.png" alt="image"></div>
+        <div class="financial"><img src="image/financial.png" alt="image"></div>
+        <div class="market"><img src="image/market.png" alt="image"></div>
+        <div class="ornament2"><img src="image/ornament.png" alt="ornament"></div>
+    </div>
+        <div class="container4">
+        <div class="ofice"><img src="image/ofice.png" alt="image"></div>
+        <div class="great">Great Digital Product Agency since 2016</div>
+        <div class="plan">Our Business Plan is a written document describing a company's core business activites, Objectives, and how it plans to achieve its goals. Our goal is to provide our client high quality Product with modern idea accordingly their budgets and according thir reuirements.</div>
+    </div>
+        <div class="container5">
+        <div class="whatsay"> What our happy client say</div>
+        <div class="several2">Several selected clients, who already believe in our service.</div>
+        <div class="man"><img src="image/man.png" alt="image"></div>
+        <div class="matthew">Matthew Paul</div>
+        <div class="perfect">Perfect, very good job! Thank you for the amazing design and work. Really impressed with the high quality and quick turnaround time. Highly recommend.</div>
+        <div class="group"><img src="image/group.png" alt="image"></div>
+    </div>
+    <div class="container6">
+        <div class="newsletter"><img src="image/Newsletter.png" alt="image"></div>
+    </div>
+    <div class="container7">
+        <div class="a"><img src="image/logo2.png" alt="image"></div>
+        <div class="digital1"> Leading digital agency with solid design and development expertise. We build readymade websites, mobile applications, and elaborate online business services.</div>
+        <div class="do">What We Do</div>
+        <div class="web">Web Design</div>
+        <div class="app">App Design</div>
+        <div class="smm">Social Media Manage</div>
+        <div class="map">Market Analysis Project</div>
+        <div class="company">Company</div>
+        <div class="about1">About Us</div>
+        <div class="career">Career</div>
+        <div class="become">Become Investor</div>
+        <div class="support">Support</div>
+        <div class="faq">FAQ</div>
+        <div class="policy">Policy</div>
+        <div class="business1">Business</div>
+        <div class="contact1">Contact</div>
+        <div class="wa">WhatsApp</div>
+        <div class="support24">Support 24</div>
+        <div class="fb"><img src="image/facebook.png" alt="image"></div>
+        <div class="twitter"><img src="image/twitter.png" alt="image"></div>
+        <div class="in"><img src="image/linkedin.png" alt="image"></div>
+    </div>
+
+    </div>
+
+</body>
+</html>

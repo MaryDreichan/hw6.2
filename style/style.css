@@ -96,14 +96,14 @@ body{
     grid-row: 2/3;
     grid-column: 4/10;
 }
-.menu_client{
+.main_client{
     display: grid;
     width: 100%;
     height: 100%;
     grid-template-columns: 10% 25% 10% 13% 15% 15% 12%;
     grid-template-rows: 50px 50px 66px;
 }
-.menu_client_our{
+.main_client_our{
     display: grid;
     grid-row: 2/3;
     grid-column: 2/3;
@@ -111,45 +111,45 @@ body{
     font-size: 40px;
     font-weight: normal;
 }
-.menu_client_several{
+.main_client_several{
     display: grid;
     grid-row: 3/4;
     grid-column: 2/3;
     font-size: 18px;
     align-items: center;
 }
-.menu_client_google{
+.main_client_google{
     display: grid;
     grid-row: 3/4;
     grid-column: 4/5;
     align-items: center;
 }
-.menu_client_airbnb{
+.main_client_airbnb{
     display: grid;
     grid-row: 3/4;
     grid-column: 5/6;
     align-items: center;
 }
-.menu_client_uber{
+.main_client_uber{
     display: grid;
     grid-row: 3/4;
     grid-column: 6/7;
     align-items: center;
 }
-.menu_client_amazon{
+.main_client_amazon{
     display: grid;
     grid-row: 3/4;
     grid-column: 7/8;
     align-items: end;
 }
-.menu_what-we-do{
+.main_what-we-do{
     display: grid;
     width: 100%;
     height: 100%;
     grid-template-columns: 10% 30% 5% 22.5% 22.5% 10%;
     grid-template-rows: 50px 400px 30px 400px;
 }
-.menu_what-we-do_how{
+.main_what-we-do_how{
     display: grid;
     grid-row: 2/3;
     grid-column: 2/3;
@@ -157,7 +157,7 @@ body{
     font-weight: normal;
     align-items: end;
 }
-.menu_what-we-do_we{
+.main_what-we-do_we{
     display: grid;
     grid-row: 4/5;
     grid-column: 2/3;
@@ -165,46 +165,46 @@ body{
     font-size: 16px;
     align-items: start;
 }
-.menu_what-we-do_business{
+.main_what-we-do_business{
     display: grid;
     grid-row: 2/3;
     grid-column: 4/5;
 }
-.menu_what-we-do_development{
+.main_what-we-do_development{
     display: grid;
     grid-row: 4/5;
     grid-column: 4/5;
 }
-.menu_what-we-do_financial{
+.main_what-we-do_financial{
     display: grid;
     grid-row: 2/3;
     grid-column: 5/6;
 }
-.menu_what-we-do_market{
+.main_what-we-do_market{
     display: grid;
     grid-row: 4/5;
     grid-column: 5/6;
 }
-.menu_what-we-do_ornament2{
+.main_what-we-do_ornament2{
     display: grid;
     grid-row: 4/5;
     grid-column: 2/3;
     align-items: center;
 }
-.menu_service{
+.main_service{
     display: grid;
     width: 100%;
     height: 100%;
     grid-template-columns: 10% 35% 15% 35% 10%;
     grid-template-rows: 50px 230px 20px 230px;
 }
-.menu_service_ofice{
+.main_service_ofice{
     display: grid;
     grid-row: 2/6;
     grid-column: 2/3;
     align-items: start;
 }
-.menu_service_great{
+.main_service_great{
     display: grid;
     grid-row: 2/3;
     grid-column: 4/5;
@@ -212,21 +212,21 @@ body{
     font-size: 40px;
     font-weight: normal;
 }
-.menu_service_plan{
+.main_service_plan{
     display: grid;
     grid-row: 4/5;
     grid-column: 4/5;
     align-items: start;
     font-size: 16px;
 }
-.menu_reviews{
+.main_reviews{
     display: grid;
     width: 100%;
     height: 100%;
     grid-template-columns: 10% 25% 10% 20% 5% 20% 10%;
     grid-template-rows: 50px 50px 50px 50px 130px 130px 100px 100px;
 }
-.menu_reviews_whatsay{
+.main_reviews_whatsay{
     display: grid;
     grid-row: 2/3;
     grid-column: 2/8;
@@ -235,7 +235,7 @@ body{
     font-size: 40px;
     font-weight: normal;
 }
-.menu_reviews_several2{
+.main_reviews_several2{
     display: grid;
     grid-row: 3/4;
     grid-column: 2/8;
@@ -243,12 +243,12 @@ body{
     justify-content: center;
     font-size: 16px;
 }
-.menu_reviews_man{
+.main_reviews_man{
     display: grid;
     grid-row: 4/6;
     grid-column: 2/3;
 }
-.menu_reviews_matthew{
+.main_reviews_matthew{
     display: grid;
     grid-row: 5/6;
     grid-column: 4/5;
@@ -256,27 +256,27 @@ body{
     font-size: 24px;
     font-weight: normal;
 }
-.menu_reviews_perfect{
+.main_reviews_perfect{
     display: grid;
     grid-row: 6/7;
     grid-column: 4/5;
     align-items: center;
     font-size: 16px;
 }
-.menu_reviews_group{
+.main_reviews_group{
     display: grid;
     grid-row: 4/6;
     grid-column: 6/7;
     align-items: start;
 }
-.menu_contact{
+.main_contact{
     display: grid;
     width: 100%;
     height: 100%;
     grid-template-columns: 10% 80% 10%;
     grid-template-rows: 10px 390px;
 }
-.menu_contact_newsletter{
+.main_contact_newsletter{
     display: grid;
     grid-row: 2/3;
     grid-column: 2/4;
